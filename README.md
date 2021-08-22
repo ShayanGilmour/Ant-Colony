@@ -1,4 +1,4 @@
-# Traveling Salesman Problem with Ant-Colony
+# Traveling Salesman Problem with Ant Colony Optimization
 "Solving" the TSP via implementing Ant Colony Optimization with Python.
 
 ### Input:
