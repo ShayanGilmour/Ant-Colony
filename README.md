@@ -31,3 +31,5 @@ Outputs one integer: The length of the shortest cycle. And the sequence of the f
 The program reads the input from a file; The file `pr1002.tsp`, contains a sample input, consisting of 1002 vertices; I've downloaded this sample from [Heidelberg University' Site](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/). The optimal answer for this testcase is `259045`.
 
 This code, doesn't usually find the "best" solution, but it finds the near solutions very fast! Solving for `pr1002` with (only) genetic algorithm, needs a lot of time! a lot! But ant colony, found the answer `374272` in less than a min. The solution for this number is available in the notebook. 
+
+For `bayg29.tsp`, the best answer is `1610`, this code doesn't usually finds this, but, it finds the solution about `1630` quite fast.
