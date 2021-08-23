@@ -27,6 +27,25 @@ Function `Evaporate`: Evaporates the pheromones on the edges by the constant Eva
 ### Output:
 Outputs one integer: The length of the shortest cycle. And the sequence of the found cycle.
 
+### Parameters:
+Here I've provided the rolls of some parameter for finding the answer. Here, by "fitness", I meant "cost"; So the less it is, the better.
+
+*Left:* The pheromone evaporation rate, *Center:* Number of ants, *Right:* Starting vertices of ants
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/12760574/130435773-8fee6491-f7ba-4a9e-b350-a34ec51ba00e.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/12760574/130435940-548e2278-8c1d-4201-ad39-2e8c3f43c60f.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/12760574/130435986-0e900f5f-70e2-4d2c-8162-00e9d979d932.png" width="300" />
+</p>
+
+Although, these figures aren't very accurate as it's the result of running ant colony optimization on one particular testcase. Here's how changing the parameter alpha and beta (in the formula,) changes the result:
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/12760574/130435773-8fee6491-f7ba-4a9e-b350-a34ec51ba00e.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/12760574/130435940-548e2278-8c1d-4201-ad39-2e8c3f43c60f.png" width="300" />
+  <img src="https://user-images.githubusercontent.com/12760574/130435986-0e900f5f-70e2-4d2c-8162-00e9d979d932.png" width="300" />
+</p>
+
+
+
 #### Postlude:
 The program reads the input from a file; The file `pr1002.tsp`, contains a sample input, consisting of 1002 vertices; I've downloaded this sample from [Heidelberg University' Site](http://comopt.ifi.uni-heidelberg.de/software/TSPLIB95/). The optimal answer for this testcase is `259045`.
 
